@@ -1,2 +1,2 @@
 # hello-world
-hehe
+Tryna learn coding so i can havea free life.
