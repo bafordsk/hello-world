@@ -1,7 +1,453 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Necro | Portfolio</title>
+
+	<link rel="stylesheet"
+		href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin,latin-ext">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--[if lt IE 9]>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+	<header id="top">
+		<div class="contact-bar" id="home">
+			<div class="container">
+				<ul class="menu personal">
+					<!-- <li><i class="fa fa-phone"></i><a href="#">Don't call me.</a></li> -->
+					<li><i class="fa fa-envelope"></i><a href="mailto:info@michaltrelak.eu">info@michaltrelak.eu</a></li>
+				</ul>
+				<ul class="menu social">
+					<li><a href="https://github.com/qnecro" class="social-icon" target="blank"><i class="fa fa-github"></i></a>
+					</li>
+					<li><a href="https://twitter.com/qnecro" class="social-icon" target="blank"><i class="fa fa-twitter"></i></a>
+					</li>
+					<!-- <li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li> -->
+					<li><a href="#" class="social-icon" target="blank"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav-bar">
+			<div class="container">
+				<h1 class="logo">
+					<a href="#">
+						<strong>NE</strong>CRO<i class="fa fa-fire"></i>
+					</a>
+				</h1>
+
+				<nav class="group">
+					<ul class="menu navigation">
+						<li><a href="#home"><i class="fa fa-shield fa-2x"></i> Home</a></li>
+						<li><a href="#portfolio"><i class="fa fa-leaf fa-2x"></i> Portfolio</a></li>
+						<li><a href="#about"><i class="fa fa-bolt fa-2x"></i> About</a></li>
+						<li><a href="#contact"><i class="fa fa-trophy fa-2x"></i> Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<article>
+
+			<header class="post-header">
+				<div class="container" id="home">
+					<h1 class="post-title">What's up</h1>
+				</div>
+			</header>
+
+
+			<div class="post-content">
+				<div class="container">
+					<div class="home">
+						<img src="img/author.png" alt="Author" class="home photo" data-aos="fade-right" data-aos-duration="1200">
+						<div class="home-container" data-aos="fade-left" data-aos-duration="1200">
+							<h1 class="right">Hey, <br> I'm Michal / Necro
+							</h1>
+							<p class="right">I'm 23 years old and a self taught <strong>junior</strong> web developer. Currently
+								focusing on front-end
+								development.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<header class="post-header">
+				<div class="container" id="portfolio">
+					<h1 class="post-title">Portfolio of my work</h1>
+				</div>
+			</header>
+
+			<div class="post-content">
+				<div class="container" data-aos="zoom-in" data-aos-duration="1400">
+
+					<h2 class="text-center">Majority of these projects were made during taking different courses in my career.
+						<br>As the time flies, the real-life projects will overtake them.
+					</h2>
+
+					<ul class="menu controls">
+						<li class="selected"><a href="#all">All</a></li>
+						<li><a href="#web">Webpages</a></li>
+						<!-- <li><a href="#games">Games</a></li> -->
+						<li><a href="#apps">Simple Apps</a></li>
+						<!-- <li><a href="#">TBA</a></li> -->
+					</ul>
+
+				</div>
+
+
+				<section class="gallery" data-aos="slide-up" data-aos-duration="1200">
+
+					<div class="gallery-set" id="all">
+
+
+						<div class="image-wrapper">
+
+							<div class="image">
+								<a href="https://github.com/qNecro/hello-world" target="blank">
+									<img class='image__img'
+										src="https://raw.githubusercontent.com/qNecro/hello-world/62f5e84b623e29f3b06765e0ee65c214b5e5abe0/img/preview.png"
+										height="192" width="383" alt="Portfolio">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">This Portfolio</div>
+										<p class="image__description">
+											Created to show the world my projects.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/fe-stats-preview" target="blank">
+									<img class='image__img'
+										src="https://raw.githubusercontent.com/qNecro/fe-stats-preview/main/images/preview.png" height="192"
+										width="383" alt="Frontendmentor">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Stats preview card component</div>
+										<p class="image__description">
+											Simple challenge from Frontend Mentor.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/fe-3col-preview" target="blank">
+									<img class="image__img"
+										src="https://raw.githubusercontent.com/qNecro/fe-3col-preview/8a1f822daf81dfbffe9d832b6d8b45db4b93475b/Screenshot%202021-07-01%20at%201.15.51%20PM.png"
+										alt="Frontendmentor" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">3-Column preview card component</div>
+										<p class="image__description">
+											Simple challenge from Frontend Mentor
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/blog" target="blank">
+									<img
+										src="https://raw.githubusercontent.com/qNecro/blog/81b3945a2f28fa562960efe585496cb7a8865aa3/img/preview.png"
+										alt="blg" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Single page blog</div>
+										<p class="image__description">
+											Single page blog made for one of my exercise.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/budgetwordle" target="blank">
+									<img
+										src="https://raw.githubusercontent.com/qNecro/budgetwordle/2bf6dcfc1a2d29fc9781a2684f557080235bf0b3/preview.png"
+										alt="blg" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Wordle Copy</div>
+										<p class="image__description">
+											Created to refresh my js knowledge.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/todoapp" target="blank">
+									<img class="image__img" src="https://raw.githubusercontent.com/qnecro/todoapp/main/showcase.png"
+										alt="Todo App" height='192' width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Php Todo App</div>
+										<p class="image__description">
+											Simple todo app made while learning the basics of php.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/react-todo" target="blank">
+									<img class="image__img"
+										src="https://raw.githubusercontent.com/qNecro/react-todo/faca5c509c6de6c29f6c3aac1bf5af060080f37f/preview.png"
+										alt="Todo App" height='192' width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">React Todo App</div>
+										<p class="image__description">
+											Simple todo app made while learning the basics of react.
+										</p>
+									</div>
+								</a>
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<div class="gallery-set" id="web">
+						<div class="image-wrapper">
+
+							<div class="image">
+								<a href="https://github.com/qNecro/hello-world" target="blank">
+									<img class='image__img'
+										src="https://raw.githubusercontent.com/qNecro/hello-world/62f5e84b623e29f3b06765e0ee65c214b5e5abe0/img/preview.png"
+										height="192" width="383" alt="Portfolio">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">This Portfolio</div>
+										<p class="image__description">
+											Created to show the world my projects.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/fe-stats-preview" target="blank">
+									<img class='image__img'
+										src="https://raw.githubusercontent.com/qNecro/fe-stats-preview/main/images/preview.png" height="192"
+										width="383" alt="Frontendmentor">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Stats preview card component</div>
+										<p class="image__description">
+											Simple challenge from Frontend Mentor.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/fe-3col-preview" target="blank">
+									<img class="image__img"
+										src="https://raw.githubusercontent.com/qNecro/fe-3col-preview/8a1f822daf81dfbffe9d832b6d8b45db4b93475b/Screenshot%202021-07-01%20at%201.15.51%20PM.png"
+										alt="Frontendmentor" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">3-Column preview card component</div>
+										<p class="image__description">
+											Simple challenge from Frontend Mentor
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/blog" target="blank">
+									<img
+										src="https://raw.githubusercontent.com/qNecro/blog/81b3945a2f28fa562960efe585496cb7a8865aa3/img/preview.png"
+										alt="blg" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Single page blog</div>
+										<p class="image__description">
+											Single page blog made for one of my exercise.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/budgetwordle" target="blank">
+									<img
+										src="https://raw.githubusercontent.com/qNecro/budgetwordle/2bf6dcfc1a2d29fc9781a2684f557080235bf0b3/preview.png"
+										alt="blg" height="192" width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Wordle Copy</div>
+										<p class="image__description">
+											Created to refresh my js knowledge.
+										</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="gallery-set" id="games">
+
+					</div>
+
+					<div class="gallery-set" id="apps">
+
+						<div class="image-wrapper">
+							<div class="image">
+								<a href="https://github.com/qNecro/todoapp" target="blank">
+									<img class="image__img" src="https://raw.githubusercontent.com/qnecro/todoapp/main/showcase.png"
+										alt="Todo App" height='192' width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">Php todo app</div>
+										<p class="image__description">
+											Simple todo app made while learning the basics of php.
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="image">
+								<a href="https://github.com/qNecro/react-todo" target="blank">
+									<img class="image__img"
+										src="https://raw.githubusercontent.com/qNecro/react-todo/faca5c509c6de6c29f6c3aac1bf5af060080f37f/preview.png"
+										alt="Todo App" height='192' width="383">
+									<div class="image__overlay image__overlay--blur">
+										<div class="image__title">React Todo App</div>
+										<p class="image__description">
+											Simple todo app made while learning the basics of react.
+										</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+
+
+
+					</div>
+
+					<div class="gallery-set" id="#">
+
+					</div>
+
+				</section>
+			</div>
+		</article>
+
+		<aside class="about">
+			<header class="post-header">
+				<div class="container" id="about">
+					<h1 class="post-title">About</h1>
+				</div>
+			</header>
+		</aside>
+		<div class="post-content">
+			<div class="container">
+				<div class="about" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
+					<div class="education">
+						<h1><i class="fas fa-graduation-cap"></i>Education</h1>
+						<p>I have finished secondary vocational school as a Mechanic of Computer Networks.Where at the end of 4th.
+							grade I got my Matura exams.</p>
+						<p>During my education I have been learning how to set up ftp servers, diagnose and repair computers, set up
+							local
+							networks using multiple routers and switches,etc.</p>
+						<p>We also had some programming classes, at first we were learning Pascal using Delphi, later we came across
+							web development and that caught my attention.
+							While my comrades were stuck at making html tables, i was already making simple landing pages.
+						</p>
+					</div>
+
+					<div class="technology">
+						<h1><i class="fas fa-code"></i>Technology</h1>
+						<p>Since my school was more hardware/software oriented, i was forced to teach myself in my free time the
+							following things:</p>
+						<p class='icons'><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i
+								class="fab fa-js-square"></i><i class="fab fa-github-square"></i>
+						</p>
+						<p>Currently trying to learn these stuffs: </p>
+						<p class="icons"><i class="fab fa-react"></i><i class="fab fa-php"></i><i class="fab fa-sass"></i></p>
+					</div>
+
+					<div class="experience">
+						<h1><i class="fas fa-briefcase"></i>Work Experience</h1>
+						<p>I haven't worked in an IT company yet, therefore I have just a little experience that I have gianed
+							making my own small projects.
+						</p>
+						<p>These projects were made during learning different courses and they are result of exams that I had to
+							take during the course</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+
+	<aside class="pre-footer">
+		<div class="container" id="contact" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50"
+			data-aos-duration="1300">
+			<p>
+				<strong>Are you interested ?</strong>
+			</p>
+
+			<!-- <form action="/action_page.php">
+				<div class="name">
+					<input type="text" name="name" placeholder="Name">
+				</div>
+				<div class="email">
+					<input type="mail" name="email" placeholder="Email">
+				</div>
+				<textarea name="message" placeholder="Write here your message..." rows="4"></textarea>
+				<div class="formulaButtons">
+					<ul>
+						<li><input type="submit" name="send" value="Send"></li>
+						<li><input type="submit" name="reset" value="Reset"></li>
+					</ul>
+				</div>
+			</form> -->
+
+			<ul class="menu personal">
+				<!-- <li><i class="fa fa-phone"></i><a href="#">Don't call me.</a></li> -->
+				<li><i class="fa fa-envelope"></i><a href="mailto:info@michaltrelak.eu">info@michaltrelak.eu</a></li>
+			</ul>
+		</div>
+	</aside>
+
+	<footer>
+		<div class="container">
+			<p class="logo">
+				<strong>NE</strong>CRO<i class="fa fa-fire"></i>
+			</p>
+			<p class="author">
+				Copyright © <a href="https://twitter.com/qNecro" target="blank">Necro</a>
+			</p>
+			<ul class="menu nav-footer">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- scripts -->
+	<script src="https://kit.fontawesome.com/5a7d7b105d.js" crossorigin="anonymous"></script>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
 </body>
+
 </html>
